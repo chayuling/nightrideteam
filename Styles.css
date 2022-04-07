@@ -1,0 +1,336 @@
+* {padding: 0; margin: 0;}
+
+body {
+    width: 100%;
+    background-color: white;
+    color: black
+}
+
+h1,h2,h3,p,a, ul{
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    color: white
+}
+
+.texto{
+    padding:0px 100px;
+    margin-top: 10px
+}
+
+.titulos-sec{
+    text-align: center;
+    margin-top: 80px
+}
+
+/* ------------ Header ---------------- */
+
+header {
+    width: 100%;    
+    height: auto;
+    margin: 0 auto;
+}
+
+.head{
+  width: 1191px;
+  margin: 0 auto;
+}
+
+.header2 {
+    overflow: hidden;
+    position: fixed;  
+    top: 0;
+    background-color: #a0a0a0;  
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+}
+.pajaro {
+    margin-top: 5px;
+}
+
+.titulo{
+    color: black;
+    display: inline-block;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 18px;
+}
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+    font-family: sans-serif;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 22px;
+}
+
+
+a.btn:link {
+    color: black;  
+    text-decoration: none
+}
+
+a.btn:visited {
+    color: black;  
+    text-decoration: none
+}
+
+a.btn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.banner {
+    width: 1191px;
+    height: auto;
+    margin: 72px auto 0 auto;
+    position: relative;
+    z-index: 1
+}
+
+.caja{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+}
+
+.text-caja{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.boton{
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px; 
+    margin-left: 110px
+}
+
+a.boton:link{
+    text-decoration: none
+}
+
+a.boton:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+/* ----------------- Contenedor ------------------ */
+
+.contenedor {
+    width: 1191px;
+    height: auto;
+    margin: 0px auto;
+}
+
+/* ----------------- Miembros ------------------ */
+
+.miembros{
+    background-color: #212121;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+.caja-miembros{
+    width: 294.5px;
+    height: 295px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px; 
+    text-align: center;
+    padding-top: 50px;
+    background-color: #313131
+}
+
+.text-mie{
+    padding: 20px;
+
+
+}
+
+.text-miem{
+    color: #ebec77
+}
+
+h3{
+    margin-top: 30px;
+    color: white
+}
+
+
+/* ----------------- Lider ------------------ */
+
+
+.lider{
+    width: 1191px;
+    overflow: hidden;
+    padding: 100px 0; 
+    background-color: black;
+
+}
+
+.text-li{
+    text-align: left;
+    margin-left: 50px;
+    color: #ebec77
+}
+
+.text-con-li{
+    text-align: left;
+    margin-left: 50px;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.lider-izq{
+    width: 585px;
+    display: inline-block;
+    float: left;
+}
+
+.lista-li{
+     margin-left: 70px;
+     list-style: url(imagenes/list.png);
+     color: white
+}
+
+.lider-der{
+    width: 580px;
+    display: inline-block;
+    float: right;
+}
+
+.lista-li li {
+     margin-top: 15px; 
+
+}
+
+.strong-li{
+    font-size: 18px
+}
+
+
+/* ----------------- Teigus ------------------ */
+
+.teigus{
+    
+    background-color:#a0a0a0;
+     padding-top: 10px;
+      padding-bottom: 50px
+}
+
+.text-teigus{
+    color:#ebec77;
+}
+
+.text-tei{
+   width: 1023px;
+   margin: 5px auto;
+   overflow: hidden;
+
+
+}
+
+.tei1{
+    display: inline-block;
+    text-align: center;
+    width: 448px;
+    margin: 30px 0px auto auto;
+    list-style: none;
+    float: left;
+    
+}
+
+.tei2{
+    display: inline-block;
+    text-align: center;
+    width: 448px;
+    margin: 30px auto 0px auto;
+    list-style: none;
+    float: right;
+
+}
+
+.tei li{
+    margin-top: 50px;
+    padding: 30px;
+    background-color:black;
+    color: white;
+    
+}
+
+
+/* ----------------- objetivos ------------------ */
+
+.objetivos{
+    background-color: black;
+    padding-top: 20px ;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.img-galeria{
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.text-obj{
+    margin-bottom: 60px;
+    color:#ebec77;
+}
+
+/* ----------------- Organización ------------------ */
+
+.organi{
+    background-color: #212121;
+}
+
+.img-galeria-org{
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.text-org{
+    padding-top: 90px;
+    color: #ebec77;
+    text-align: center;
+}
+
+/* ----------------- unete ------------------ */
+
+.unete{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: #ebec77;
+    color: black;
+}
+
+.text-une{
+    color: black;
+}
+
+.formu {
+    width: 500px;
+    margin: 70px auto;
+}
+
+/* ----------------- footer ------------------ */
+
+footer {
+    width: 1191px;
+    height: auto;
+    margin: 0px auto 100px auto;
+}
